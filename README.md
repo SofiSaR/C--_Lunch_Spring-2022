@@ -1,4 +1,4 @@
-# Ordered Exam Scores Program
+# Lunch Program
 
 Jan 30, 2022
 
@@ -13,7 +13,31 @@ Jan 30, 2022
 ## The Instructions That Were Given for the Project:
 
 
-- Write a C++ program that asks the user to enter in three exam scores as doubles and displays the exam scores in descending numerical order.
+- Write a C++ program that asks the user the questions from the Deciding What to Have for Lunch flow chart and displays the appropriate message to the user.
+
+### Deciding What to Have for Lunch
+
+```
++++++++++++++++++           _____          +++++++++++++         _____
+| How much time |         /       \        | Do I have |       /       \
+|  do I have?   |   -->  |  A lot  |  -->  |   bread?  |  --> |   Yes   |
++++++++++++++++++         \_______/        +++++++++++++       \_______/
+        |                                        |                 |
+     _______                                   _____         ==============
+   /   Not   \                               /       \       |   Make a   |
+  |   Much    |                             |   No    |      |  sandwich! |
+   \_________/                               \_______/       ==============
+        |                                        |
+=================           _____          +++++++++++++         _____
+|  Better throw |         /       \        | Do I have |       /       \
+|  somthing in  |        |   Yes   |  <--  |  lettuce? |  --> |   No    |
+| the microwave |         \_______/        +++++++++++++       \_______/
+=================             |                                    |
+                         ===========                        ================
+                         |  Make a |                        | Better go to |
+                         |  salad  |                        |  the store!  |
+                         ===========                        ================
+```
 
 - If the three exam scores are all the same the program should tell the user that all the exam scores are equal and exit the program.
 
